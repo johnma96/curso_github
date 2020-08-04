@@ -7,6 +7,7 @@ def suma(x,y):
     return suma
 
 import .archivo2
+import .archvio3
 
 
 
@@ -23,4 +24,4 @@ def potencia(x,y):
 
 def modulo(x,y):
     mod = x%y
-    return mod 
+    return mod
