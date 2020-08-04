@@ -19,4 +19,8 @@ import .archivo2
 
 def potencia(x,y):
     pot = x**y
-    return pot  
+    return pot
+
+def modulo(x,y):
+    mod = x%y
+    return mod 
