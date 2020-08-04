@@ -23,3 +23,5 @@ def potencia(x,y):
 def modulo(x,y):
     mod = x%y
     return mod
+
+print('Solucioné problemas de mezclado manteniendo lo de mabas ramas')
