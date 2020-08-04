@@ -1,10 +1,12 @@
-import pandas as import pd
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.arange(0,1)
+x = np.arange(0,1,100)
 y = x**2
 
-df = pd.DataFrame(dict('x':x, 'y':y))
+dictionary = {'x':x, 'y':y}
 
-plt.plot(df.x, df.y)
+df = pd.DataFrame(dictionary)
+
+print(df)

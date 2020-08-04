@@ -1,14 +1,14 @@
 #Importo el modulo turubulencia copia desde otro repo
-import .Modules
+# import Modules Como tiene pandas_bokeh no se puede
 
 #Algunas funciones básicas
-import .archivo3
+import archivo3
 def suma(x,y):
     suma = x + y
     return suma
 
-import .archivo2
-import .archvio4
+import archivo2
+import archivo4
 
 print('Generando un nuevo cambio en master y creando rama funciones2')
 
@@ -39,3 +39,7 @@ class Humano():
 #SOLO AGREGO UNA LINEA EXPLICATIVA
 #Una vez importado todos los modulos y creado las funciones, el archivo
 # principal está lista
+
+print(modulo(3,2))
+pedro = Humano('Pedro', 'Ramirez', 'Ingeniero')
+print(pedro.hablar(frase = 'Hola mundo'))
