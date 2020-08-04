@@ -10,3 +10,6 @@ import .archivo2
 
 
 print('Generando un nuevo cambio en master y creando rama funciones2')
+
+
+print('A partir de esta linea se crearia las funciones especiales')
