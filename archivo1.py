@@ -7,6 +7,7 @@ def suma(x,y):
     return suma
 
 import .archivo2
+import .archvio4
 
 print('Generando un nuevo cambio en master y creando rama funciones2')
 
