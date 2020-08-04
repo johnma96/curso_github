@@ -37,3 +37,5 @@ class Humano():
         print('Don {} dice {}'.format(self.nombre, frase))
 
 #SOLO AGREGO UNA LINEA EXPLICATIVA
+#Una vez importado todos los modulos y creado las funciones, el archivo
+# principal está lista
