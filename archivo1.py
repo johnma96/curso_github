@@ -45,3 +45,5 @@ class Humano():
 
     def hablar(self, frase):
         print('Don {} dice {}'.format(self.nombre, frase))
+
+#SOLO AGREGO UNA LINEA EXPLICATIVA
